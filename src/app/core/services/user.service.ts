@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 
 export class UserService {
 
-  private apiUrl = 'http://localhost:3000/auth/spotify';
+  private apiUrl = 'https://melofy-back-production.up.railway.app/auth/spotify';
 
   constructor(private http: HttpClient, private localStorage: LocalStorageService) { }
 

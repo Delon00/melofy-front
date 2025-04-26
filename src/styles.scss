@@ -5,7 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-.btn-style{
+.btn-style {
     text-decoration: none;
     background: rgba(0, 255, 147, 0.50);
     border-radius: 20px;
@@ -18,4 +18,17 @@ body{
     color: #fff;
     text-align: center;
     font-weight: bold;
+    transition: 
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.btn-style:hover {
+    background-color: #000;
+    color: rgba(0, 255, 147, 1);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 255, 149, 0.486);
 }
